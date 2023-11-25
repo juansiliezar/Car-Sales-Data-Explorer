@@ -1,3 +1,4 @@
+pip==23.3.1
 altair @ file:///home/conda/feedstock_root/build_artifacts/altair_1696364485230/work
 appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1649077682618/work
 asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
