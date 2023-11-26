@@ -37,4 +37,4 @@ pipenv shell
 streamlit run app.py
 ```
 
-After execution, access the app by visiting [http://localhost:8501](http://0.0.0.0:10000)http://0.0.0.0:10000 in your web browser.
+After execution, access the app by visiting [http://localhost:10000](http://0.0.0.0:10000) in your web browser.
