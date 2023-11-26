@@ -98,7 +98,7 @@ st.divider()
 # Adding a checkbox option to view graph's axes scaled logarithmically
 # and adjusting the corresponding parameters depending on input
 #
-log = st.checkbox('View Log-Scaled Axes')
+log = st.checkbox('View Log-Scaled Axes on Price vs. Mileage')
 if log:
     log_x = True
     log_y = True
@@ -127,7 +127,7 @@ st.divider()
 # Adding a checkbox option to view graph's axes scaled logarithmically
 # and adjusting the corresponding parameters depending on input
 # 
-log = st.checkbox('View Log-Scaled Axes')
+log = st.checkbox('View Log-Scaled Axes on Price vs. Model Year')
 if log:
     log_x = True
     log_y = True
