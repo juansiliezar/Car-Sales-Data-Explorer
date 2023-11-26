@@ -19,7 +19,7 @@ except:
 # 
 # Adding a title to the page
 # 
-st.title('Analyzing a Sample of Used Car Market in the US')
+st.title('Used Car Sales Data Explorer')
 
 #
 # and displaying the dataset with a header labeling it
