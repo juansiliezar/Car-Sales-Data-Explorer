@@ -14,7 +14,7 @@ try:
     df = pd.read_csv(BytesIO(r.content)) 
     
 except:   
-    df = pd.read_csv("/Users/juansiliezar/sprint-4-software-development-tools/datasets/vehicles_us.csv")    
+    df = pd.read_csv("datasets/vehicles_us.csv")    
 
 st.title('Analyzing a Sample of the Used Car Market in the US')
 st.write('Data Viewer')
