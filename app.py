@@ -19,7 +19,7 @@ except:
 # 
 # Adding a title to the page
 # 
-st.title('Used Car Sales Data Explorer')
+st.title('Car Sales Data Explorer')
 
 #
 # and displaying the dataset with a header labeling it
@@ -94,6 +94,17 @@ dom_hist = px.histogram(
 st.plotly_chart(dom_hist, use_container_width=True)
 st.divider()
 
+#
+# Adding a checkbox option to view graph's axes scaled logarithmically
+# and adjusting the corresponding parameters depending on input
+#
+log = st.checkbox('View Log-Scaled Axes')
+if log:
+    log_x = True
+    log_y = True
+else:
+    log_x = False
+    log_y = False
 # 
 # Creating Price vs. Odometer Scatter Plot
 #
@@ -105,23 +116,25 @@ price_vs_odometer = px.scatter(
             'price' : 'Price (USD)'},
     log_x=log_x, log_y=log_y
     )
-#
-# Adding a checkbox option to view graph's axes scaled logarithmically
-# and adjusting the corresponding parameters depending on input
-#
-log = st.checkbox('View Log-Scaled Axes')
-if log:
-    log_x = True
-    log_y = True
-else:
-    log_x=False
-    log_y=False
+
 #
 # Displaying Plot
 #    
 st.plotly_chart(price_vs_odometer, use_container_width=True)
 st.divider()
  
+# 
+# Adding a checkbox option to view graph's axes scaled logarithmically
+# and adjusting the corresponding parameters depending on input
+# 
+log = st.checkbox('View Log-Scaled Axes')
+if log:
+    log_x = True
+    log_y = True
+else:
+    log_x = False
+    log_y = False
+    
 # 
 # Creating Price vs. Model Year Scatter Plot
 #   
@@ -133,18 +146,6 @@ price_vs_model_year = px.scatter(
             'price' : 'Price (USD)'},
     log_x=False, log_y=False
     )
-
-# 
-# Adding a checkbox option to view graph's axes scaled logarithmically
-# and adjusting the corresponding parameters depending on input
-# 
-log = st.checkbox('View Log-Scaled Axes')
-if log:
-    log_x = True
-    log_y = True
-else:
-    log_x=False
-    log_y=False
 
 # 
 # Displaying Plot
