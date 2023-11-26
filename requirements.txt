@@ -1,6 +1,6 @@
 pip==23.3.1
 numpy 
 pandas
-streamlit
+streamlit==1.12.2
 plotly.express
 altair<5 
