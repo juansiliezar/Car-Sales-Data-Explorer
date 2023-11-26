@@ -59,12 +59,19 @@ dom_hist = px.histogram(
 # Visualizng potential relationships between key variables
 # -------------------------------------------------------------
 
+log = st.checkbox('Log-Scaled Axes')
+
+if log:
+    log_x = True
+    log_y = True
+
 price_vs_odometer = px.scatter(
     df, 
     x='odometer', y='price', 
     title='Price vs. Vehicle Mileage', 
     labels={'odometer' : 'Mileage', 
-            'price' : 'Price (USD)'}
+            'price' : 'Price (USD)'},
+    log_x=False, log_y=False
     )
 
 price_vs_model_year = px.scatter(
@@ -72,7 +79,8 @@ price_vs_model_year = px.scatter(
     x='model_year', y='price', 
     title='Price vs. Model Year',
     labels={'model_year' : 'Model Year', 
-            'price' : 'Price (USD)'}
+            'price' : 'Price (USD)'},
+    log_x=False, log_y=False
     )
 
 st.plotly_chart(price_hist, use_container_width=True)
