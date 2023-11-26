@@ -2,7 +2,7 @@
 *A dynamic web application for interactive analysis and visualization of car sales advertisements data.*
 
 ### Introduction
-The Car Sales Data Explorer is a Python-based web application utilizing Streamlit, designed to interactively visualize and analyze data. The application fetches data from a publicly accessible Google Sheet or, as a fallback, from a local dataset in the project directory. It leverages Plotly for advanced, interactive visualizations, and Render for cloud deployment.
+The Car Sales Data Explorer is a Python-based web application utilizing Streamlit, designed to interactively visualize and analyze data. The application fetches data from a publicly accessible Google Sheet or, as a fallback, from a local dataset in the project directory. It leverages Plotly for interactive visualizations, and Render for cloud deployment.
 
 ### Project Overview
 This project was undertaken to demonstrate proficiency in several key areas:
