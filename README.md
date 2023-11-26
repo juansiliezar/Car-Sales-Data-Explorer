@@ -23,18 +23,18 @@ Experience the Car Sales Data Explorer in action: Used Car Market Analysis
 ### Installation
 This project uses pipenv for managing package dependencies and virtual environments. To set up this project locally:
 
-```{
+```bash
 git clone https://github.com/juansiliezar/Car-Sales-Data-Explorer.git
 cd Car-Sales-Data-Explorer
 pipenv install -r requirements.txt
-}```
+```
 
 ### Usage
 Activate the pipenv environment and run the application:
 
-```{
+```bash
 pipenv shell
 streamlit run app.py
-}```
+```
 
-After execution, access the app by visiting http://localhost:8501 in your web browser.
+After execution, access the app by visiting [http://localhost:8501](http://0.0.0.0:10000)http://0.0.0.0:10000 in your web browser.
