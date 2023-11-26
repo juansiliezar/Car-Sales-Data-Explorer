@@ -1,8 +1,8 @@
 # Car Sales Data Explorer
-A dynamic web application for interactive analysis and visualization of car sales advertisements data.
+*A dynamic web application for interactive analysis and visualization of car sales advertisements data.*
 
 ### Introduction
-The Car Sales Data Explorer is a web-based application developed to showcase advanced data handling, visualization, and application deployment skills. Designed with a focus on user experience, the application provides insightful and interactive visualizations of a comprehensive dataset on car sales advertisements. It stands as a testament to my capabilities in software engineering, data analysis, and web development.
+The Car Sales Data Explorer is a Python-based web application utilizing Streamlit, designed to interactively visualize and analyze data. The application fetches data from a publicly accessible Google Sheet or, as a fallback, from a local dataset in the project directory. It leverages Plotly for interactive visualizations, and Render for cloud deployment.
 
 ### Project Overview
 This project was undertaken to demonstrate proficiency in several key areas:
@@ -18,12 +18,12 @@ The application is ideal for users interested in the dynamics of car sales, tren
 The dataset, vehicles_us.csv, includes a rich collection of car sales advertisements with various attributes like make, model, year, price, and more. This dataset forms the backbone of the application, enabling a detailed exploration of trends and patterns in the used car market.
 
 ### Live Application
-Experience the Car Sales Data Explorer in action: Used Car Market Analysis
+Experience the Car Sales Data Explorer in action: [Car Sales Data Explorer](https://used-car-market-analysis.onrender.com)
 
 ### Installation
 This project uses pipenv for managing package dependencies and virtual environments. To set up this project locally:
 
-```
+```bash
 git clone https://github.com/juansiliezar/Car-Sales-Data-Explorer.git
 cd Car-Sales-Data-Explorer
 pipenv install -r requirements.txt
@@ -32,9 +32,9 @@ pipenv install -r requirements.txt
 ### Usage
 Activate the pipenv environment and run the application:
 
-```
+```bash
 pipenv shell
 streamlit run app.py
 ```
 
-After execution, access the app by visiting http://localhost:8501 in your web browser.
+After execution, access the app by visiting [http://localhost:10000](http://0.0.0.0:10000) in your web browser.
