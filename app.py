@@ -127,8 +127,8 @@ st.divider()
 # Adding a checkbox option to view graph's axes scaled logarithmically
 # and adjusting the corresponding parameters depending on input
 # 
-log = st.checkbox('View Log-Scaled Axes on Price vs. Model Year')
-if log:
+log_2 = st.checkbox('View Log-Scaled Axes on Price vs. Model Year')
+if log_2:
     log_x = True
     log_y = True
 else:
