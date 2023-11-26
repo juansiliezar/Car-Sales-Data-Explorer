@@ -6,7 +6,7 @@ blinker @ file:///home/conda/feedstock_root/build_artifacts/blinker_169889016047
 Bottleneck @ file:///Users/cbousseau/work/recipes/ci_py311/bottleneck_1677925122241/work
 Brotli @ file:///Users/cbousseau/work/recipes/ci_py311/brotli-split_1677936346777/work
 cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1698197297464/work
-certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1700303426725/work/certifi
+certifi @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_35eq66o3mo/croot/certifi_1700501684871/work/certifi
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1698833585322/work
 click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1691044910542/work
@@ -53,6 +53,7 @@ pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_16428759
 pyarrow==11.0.0
 pydeck @ file:///home/conda/feedstock_root/build_artifacts/pydeck_1667589451974/work
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1700607939962/work
+Pympler @ file:///tmp/build/80754af9/pympler_1602785470644/work
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
 pytz @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6btwyyj8a1/croot/pytz_1695131592184/work
@@ -62,10 +63,11 @@ referencing @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/ab
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241324/work
 rich @ file:///home/conda/feedstock_root/build_artifacts/rich-split_1700160075651/work/dist
 rpds-py @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f8jkozoefm/croot/rpds-py_1698945944860/work
+semver @ file:///tmp/build/80754af9/semver_1603822362442/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1634310307496/work
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
-streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1700057188117/work
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1661826489582/work
 tenacity @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0ew5sfng29/croot/tenacity_1682972282256/work
 toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
 toolz @ file:///home/conda/feedstock_root/build_artifacts/toolz_1657485559105/work
