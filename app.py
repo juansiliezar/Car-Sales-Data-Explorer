@@ -17,7 +17,7 @@ except:
     df = pd.read_csv("datasets/vehicles_us.csv")    
 
 st.title('Analyzing a Sample of the Used Car Market in the US')
-st.write('Data Viewer')
+st.header('Data Viewer')
 st.write(df)
 
 # -------------------------------------------------------------
@@ -78,9 +78,16 @@ price_vs_model_year = px.scatter(
     )
 
 st.plotly_chart(price_hist, use_container_width=True)
+st.divider()
+
 st.plotly_chart(model_year_hist, use_container_width=True)
+st.divider()
+
 st.plotly_chart(odom_hist, use_container_width=True)
+st.divider()
+
 st.plotly_chart(dom_hist, use_container_width=True)
+st.divider()
 
 log = st.checkbox('Log-Scaled Axes')
 if log:
@@ -88,4 +95,5 @@ if log:
     log_y = True
     
 st.plotly_chart(price_vs_odometer, use_container_width=True)
+st.divider()
 st.plotly_chart(price_vs_model_year, use_container_width=True)
